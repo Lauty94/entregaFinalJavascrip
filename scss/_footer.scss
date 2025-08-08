@@ -1,0 +1,31 @@
+footer {
+    background-color: $color-principal;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  
+    h4 {
+      margin: 0;
+    }
+  
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+  
+      li {
+        display: inline;
+        margin: 0 10px;
+  
+        a {
+          color: #fff;
+          text-decoration: none;
+  
+          &:hover {
+            color: $color-destacado;
+          }
+        }
+      }
+    }
+  }
+  

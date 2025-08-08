@@ -1,0 +1,32 @@
+form {
+    background-color: $color-secundario;
+    padding: 30px;
+    @include border-radius($border-radius-default);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .form-label {
+      color: #fff;
+    }
+  
+    .form-control,
+    .form-select {
+      @include border-radius(8px);
+      background-color: $color-fondo;
+      color: #fff;
+      border: 1px solid $color-acentos;
+    }
+  
+    .btn-primary {
+      background-color: $color-destacado;
+      border: none;
+      @include border-radius(8px);
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: $color-principal;
+      }
+    }
+  }
+  

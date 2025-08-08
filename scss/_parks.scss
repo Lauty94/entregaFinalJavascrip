@@ -1,0 +1,37 @@
+.descripcion {
+  background-color: $color-principal;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+}
+
+.descripcion {
+  background-color: $color-principal;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: white; // opcional, para contraste
+}
+
+.reseña {
+  background-color: $color-principal;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: white; // opcional
+}

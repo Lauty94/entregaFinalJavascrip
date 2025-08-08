@@ -1,0 +1,169 @@
+@charset "UTF-8";
+body {
+  background-color: #474e59;
+  background-image: url("../assets/img/fondo.png");
+  background-size: cover;
+  font-family: "Karma", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f5f5f5;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  color: #6a96d9;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+h2, h3 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #6f7b8c;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.logo-navbar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.imagenesindex {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.title-border {
+  background-color: #343a40;
+  border-radius: 25px;
+  padding: 15px;
+  display: inline-block;
+}
+.title-border h2 {
+  color: white;
+  margin: 0;
+}
+
+nav.navbar {
+  background-color: #45618c;
+}
+
+.carousel-inner {
+  height: 600px;
+}
+.carousel-inner .carousel-item {
+  height: 100%;
+}
+.carousel-inner .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+footer {
+  background-color: #45618c;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+footer h4 {
+  margin: 0;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #6a96d9;
+}
+
+form {
+  background-color: #474e59;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form .form-label {
+  color: #fff;
+}
+form .form-control,
+form .form-select {
+  border-radius: 8px;
+  background-color: #1f2c40;
+  color: #fff;
+  border: 1px solid #6f7b8c;
+}
+form .btn-primary {
+  background-color: #6a96d9;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+form .btn-primary:hover {
+  background-color: #45618c;
+}
+
+.descripcion {
+  background-color: #45618c;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.descripcion h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.descripcion p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.descripcion .btn {
+  margin-top: 1rem;
+}
+
+.reseña {
+  background-color: #6a96d9;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  color: white;
+}
+.reseña h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.reseña ul {
+  padding-left: 0.5rem;
+}
+.reseña ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

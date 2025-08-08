@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "PokePark Central",
+    "zona": "Centro",
+    "lat": -34.6037,
+    "lng": -58.3816,
+    "img": "img/parks/central.jpg",
+    "votos": [],
+    "asistentes": []
+  }
+]

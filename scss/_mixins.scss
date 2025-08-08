@@ -1,0 +1,17 @@
+@mixin border-radius($radius) {
+    border-radius: $radius;
+  }
+  
+  @mixin center-text {
+    text-align: center;
+  }
+  
+  @mixin section-title {
+    font-family: $font-arvo;
+    font-weight: 700;
+    color: $color-destacado;
+    @include center-text;
+    margin: 0;
+    padding: 20px 0;
+  }
+  
