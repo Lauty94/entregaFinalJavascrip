@@ -1,12 +1,202 @@
 [
   {
     "id": 1,
-    "nombre": "PokePark Central",
-    "zona": "Centro",
-    "lat": -34.6037,
-    "lng": -58.3816,
-    "img": "img/parks/central.jpg",
-    "votos": [],
-    "asistentes": []
+    "nombre": "avellanew",
+    "zona": "su",
+    "rodado": "todos",
+    "puntuacion": 4.8,
+    "img": "./assets/img/avellanew.png",
+    "descripcion": "Skatepark al aire libre junto a las canchas de intependiente y racing.",
+    "url": "./parks/avellanew.html"
+  },
+  {
+    "id": 2,
+    "nombre": "estacion avellaneda",
+    "zona": "sur",
+    "rodado": "todos",
+    "puntuacion": 3.5,
+    "img": "./assets/img/avellanew2.png",
+    "descripcion": "Skatepark pequeño junto a la estacion avellaneda",
+    "url": "./parks/estacionavellaneda.html"
+  },
+  {
+    "id": 3,
+    "nombre": "monte grande",
+    "zona": "sur",
+    "rodado": "todos",
+    "puntuacion": 4.2,
+    "img": "./assets/img/torneomontegrande.png",
+    "descripcion": "Skatepark al aire libre junto a la estacion de tren.",
+    "url": "./parks/montegrande.html"
   }
+    {
+    "id": 4,
+    "nombre": "pacha",
+    "zona": "centro",
+    "rodado": "todos",
+    "puntuacion": 4.7,
+    "img": "./assets/img/pacha.png",
+    "descripcion": "Skatepark al aire libre, super amplio, frente a aeroparque.",
+    "url": "./parks/pacha.html"
+  },
+    {
+    "id": 5,
+    "nombre": "vans",
+    "zona": "centro",
+    "rodado": "skate",
+    "puntuacion": 3.8,
+    "img": "./assets/img/vans.png",
+    "descripcion": "Bowl al aire libre cerca del planetario.",
+    "url": "./parks/vans.html"
+  },
+    {
+    "id": 6,
+    "nombre": "quilmes",
+    "zona": "sur",
+    "rodado": "todos",
+    "puntuacion": 4.5,
+    "img": "./assets/img/quilmes.png",
+    "descripcion": "Skatepark al aire libre, super amplio.",
+    "url": "./parks/vans.html"
+  },
+  {
+    "id": 7,
+    "nombre": "velodromo lanus",
+    "zona": "sur",
+    "rodado": "skate",
+    "puntuacion": 3.1,
+    "img": "./assets/img/velodromolanus.png",
+    "descripcion": "Dentro del velodromo de lanus, ideal para skate y principiantes.",
+    "url": "./parks/velodromolanus.html"
+  },
+  {
+    "id": 8,
+    "nombre": "escalada",
+    "zona": "sur",
+    "rodado": "todos",
+    "puntuacion": 3.9,
+    "img": "./assets/img/escapark.png",
+    "descripcion": "Skatepark al aire libre junto a la estacion de tren, en la plaza central de escalada",
+    "url": "./parks/escalada.html"
+  }
+    {
+    "id": 9,
+    "nombre": "villa luro",
+    "zona": "centro",
+    "rodado": "todos",
+    "puntuacion": 5.0,
+    "img": "./assets/img/villaluro.png",
+    "descripcion": "Skatepark techado, bajo la autopista y sobre la avenida principal.",
+    "url": "./parks/villaluro.html"
+  },
+    {
+    "id": 10,
+    "nombre": "pompeya",
+    "zona": "centro",
+    "rodado": "skate",
+    "puntuacion": 3.7,
+    "img": "./assets/img/pompeya.png",
+    "descripcion": "Skatepark al aire libre junto al riachuelo, a solo 3 cuadras del puente",
+    "url": "./parks/pompeya.html"
+  },
+    {
+    "id": 11,
+    "nombre": "barracas",
+    "zona": "centro""sur",
+    "rodado": "todos",
+    "puntuacion": 4.5,
+    "img": "../assets/img/pacha.png",
+    "descripcion": "Skatepark al aire libre, super amplio y con bowl, junto a la autopista.",
+    "url": "./parks/barracas.html"
+  },
+  {
+    "id": 12,
+    "nombre": "facultades",
+    "zona": "centro",
+    "rodado": "skate",
+    "puntuacion": 3.4,
+    "img": "./assets/img/facultades.png",
+    "descripcion": "skatepark al aire libre junto a las facultades, en el corazon de capital.",
+    "url": "./parks/facultades.html"
+  },
+  {
+    "id": 13,
+    "nombre": "puerto madero",
+    "zona": "centro",
+    "rodado": "todos",
+    "puntuacion": 4.2,
+    "img": "./assets/img/puertomadero.png",
+    "descripcion": "En una de las zonas mas turisticas y a tan solo 3 cuadras de casa rosada, skatepark al aire libre.",
+    "url": "./parks/puertomadero.html"
+  }
+    {
+    "id": 14,
+    "nombre": "parque centenario",
+    "zona": "centro",
+    "rodado": "todos",
+    "puntuacion": 4.0,
+    "img": "./assets/img/parquecentenario.png",
+    "descripcion": "Skatepark al aire libre, super amplio, en el centro del parque centenario.",
+    "url": "./parks/parquecentenario.html"
+  },
+    {
+    "id": 15,
+    "nombre": "mataderos",
+    "zona": "centro",
+    "rodado": "skate",
+    "puntuacion": 2.8,
+    "img": "./assets/img/mataderos.png",
+    "descripcion": "Skatepark al aire libre, super amplio.",
+    "url": "./parks/mataderos.html"
+  },
+    {
+    "id": 16,
+    "nombre": "lugano",
+    "zona": "centro""sur",
+    "rodado": "skate",
+    "puntuacion": 2.8,
+    "img": "./assets/img/lugano.png",
+    "descripcion": "Skatepark al aire libre en el centro de lugano.",
+    "url": "./parks/lugano.html"
+  },
+  {
+    "id": 17,
+    "nombre": "Caguapark (Temperley)",
+    "zona": "sur",
+    "rodado": "todo",
+    "puntuacion": 4.0,
+    "img": "./assets/img/caguapark.png",
+    "descripcion": "Sobre avenida caguazu, a dos cuadras de la laguna, skatepark al aire libre.",
+    "url": "./parks/caguapark.html"
+  },
+  {
+    "id": 18,
+    "nombre": "nuñez",
+    "zona": "centro""norte",
+    "rodado": "todo",
+    "puntuacion": 4.2,
+    "img": "./assets/img/nuñez.png",
+    "descripcion": "Skatepark mediano al aire libre.",
+    "url": "./parks/nuñez.html"
+  }
+    {
+    "id": 19,
+    "nombre": "warnes",
+    "zona": "centro",
+    "rodado": "skate",
+    "puntuacion": 4.5,
+    "img": "./assets/img/warnes.png",
+    "descripcion": "Skatepark al aire libre, cerca de la estacion de tren paternal.",
+    "url": "./parks/warnes.html"
+  },
+    {
+    "id": 20,
+    "nombre": "pombopark (vila real)",
+    "zona": "centro""oeste",
+    "rodado": "todo",
+    "puntuacion": 3.9,
+    "img": "./assets/img/pombopark.png",
+    "descripcion": "En la plaza las toscaneras, en villa real.",
+    "url": "./parks/pomboparkvillareal.html"
+  },
 ]
