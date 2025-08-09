@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descubrí los mejores skateparks en Buenos Aires. Recomendaciones, ubicación y detalles solo en PokePark.">
-    <title>pokepark ¡parks!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubrí los mejores skateparks en Buenos Aires. Recomendaciones, ubicación y detalles solo en PokePark.">
+  <title>pokepark ¡parks!</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="../styles/styles.css">
+
+  <!-- Tu script principal (cargado desde el head con defer, como pide la consigna) -->
+  <script src="../scripts/parks-render.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +20,7 @@
         <a class="navbar-brand d-flex align-items-center gap-2 animate__animated animate__backInDown animate__delay-0.3s" href="../index.html">
           <img src="../assets/img/logo.png" alt="logo pokepark" class="logo-navbar">
           pokepark
-        </a>            
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,68 +42,56 @@
            <li class="nav-item animate__animated animate__jackInTheBox">
               <a class="nav-link" href="./contacto.html">Contacto</a>
             </li>
-          </ul> 
-       </div> 
-      </div> 
+          </ul>
+       </div>
+      </div>
     </nav>
   </header>
 
-  <div class="d-flex gap-3 mb-4">
-  <select id="filter-zona" class="form-select w-auto">
-    <option value="">Zona (todas)</option>
-    <option value="centro">Centro</option>
-    <option value="norte">Norte</option>
-    <option value="oeste">Oeste</option>
-    <option value="sur">Sur</option>
-  </select>
+  <!-- FILTROS (mantengo tus selects con los mismos ids para que el JS los use) -->
+  <main class="container my-4">
+    <div class="d-flex gap-3 mb-4">
+      <select id="filter-zona" class="form-select w-auto">
+        <option value="">Zona (todas)</option>
+        <option value="centro">Centro</option>
+        <option value="norte">Norte</option>
+        <option value="oeste">Oeste</option>
+        <option value="sur">Sur</option>
+      </select>
 
-  <select id="filter-rodado" class="form-select w-auto">
-    <option value="">Rodado (todos)</option>
-    <option value="skate">Skate</option>
-    <option value="bmx">BMX</option>
-    <option value="roller">Roller</option>
-    <option value="scooter">Scooter</option>
-  </select>
+      <select id="filter-rodado" class="form-select w-auto">
+        <option value="">Rodado (todos)</option>
+        <option value="skate">Skate</option>
+        <option value="bmx">BMX</option>
+        <option value="roller">Roller</option>
+        <option value="scooter">Scooter</option>
+      </select>
 
-  <select id="filter-puntuacion" class="form-select w-auto">
-    <option value="">Puntuación</option>
-    <option value="5">★★★★★</option>
-    <option value="4">★★★★ o más</option>
-    <option value="3">★★★ o más</option>
-  </select>
-  </div>
-
-<main class="container my-4">
-
-    <!-- Filtro por zona -->
-    <div class="row mb-4">
-        <div class="col-md-6">
-            <select id="zonaFiltro" class="form-select">
-                <option value="todos">Todas las zonas</option>
-                <option value="CABA">CABA</option>
-                <option value="GBA Norte">GBA Norte</option>
-                <option value="GBA Sur">GBA Sur</option>
-                <option value="GBA Oeste">GBA Oeste</option>
-            </select>
-        </div>
+      <select id="filter-puntuacion" class="form-select w-auto">
+        <option value="">Puntuación</option>
+        <option value="5">★★★★★</option>
+        <option value="4">★★★★ o más</option>
+        <option value="3">★★★ o más</option>
+      </select>
     </div>
 
-    <!-- Contenedor de parques -->
-    <div id="parksContainer" class="row g-4">
-        <!-- Las cards se cargan dinámicamente desde parks.js -->
+    <!-- CONTENEDOR donde JS inyectará las cards (usa clases Bootstrap row/col) -->
+    <div id="parks-container" class="row g-4">
+      <!-- cards inyectadas por ../scripts/parks-render.js -->
     </div>
+  </main>
 
-</main>
+  <footer class="text-center p-3 bg-dark text-light mt-5">
+    <h4>seguinos en:</h4>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">facebook</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">instagram</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">twitter</a></li>
+    </ul>
+  </footer>
 
-    <footer class="text-center p-3 bg-dark text-light mt-5">
-        <h4>seguinos en:</h4>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">facebook</a></li>
-            <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">instagram</a></li>
-            <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">twitter</a></li>
-        </ul>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS (queda al final, no hace falta moverlo) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
+
