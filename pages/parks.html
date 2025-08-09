@@ -70,9 +70,27 @@
   </select>
   </div>
 
-    <div class="row g-4" id="parks-container">
-    <!-- Las cards se inyectan aquí con JS -->
+<main class="container my-4">
+
+    <!-- Filtro por zona -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <select id="zonaFiltro" class="form-select">
+                <option value="todos">Todas las zonas</option>
+                <option value="CABA">CABA</option>
+                <option value="GBA Norte">GBA Norte</option>
+                <option value="GBA Sur">GBA Sur</option>
+                <option value="GBA Oeste">GBA Oeste</option>
+            </select>
+        </div>
     </div>
+
+    <!-- Contenedor de parques -->
+    <div id="parksContainer" class="row g-4">
+        <!-- Las cards se cargan dinámicamente desde parks.js -->
+    </div>
+
+</main>
 
     <footer class="text-center p-3 bg-dark text-light mt-5">
         <h4>seguinos en:</h4>
