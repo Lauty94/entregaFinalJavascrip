@@ -15,7 +15,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 3.5,
-    "img": "../assets/img/avellanew2.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark pequeño junto a la estación Avellaneda.",
     "url": "../parks/estacionavellaneda.html"
   },
@@ -55,7 +55,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.5,
-    "img": "../assets/img/quilmes.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark al aire libre, super amplio.",
     "url": "../parks/quilmes.html"
   },
@@ -65,7 +65,7 @@
     "zona": "sur",
     "rodado": "skate",
     "puntuacion": 3.1,
-    "img": "../assets/img/velodromolanus.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Dentro del velódromo de Lanús, ideal para principiantes.",
     "url": "../parks/velodromolanus.html"
   },
@@ -95,7 +95,7 @@
     "zona": "sur",
     "rodado": "skate",
     "puntuacion": 3.7,
-    "img": "../assets/img/pompeya.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark junto al riachuelo, a 3 cuadras del puente.",
     "url": "../parks/pompeya.html"
   },
@@ -105,7 +105,7 @@
     "zona": "centro",
     "rodado": "todos",
     "puntuacion": 4.5,
-    "img": "../assets/img/barracas.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark con bowl junto a la autopista.",
     "url": "../parks/barracas.html"
   },
@@ -115,7 +115,7 @@
     "zona": "centro",
     "rodado": "skate",
     "puntuacion": 3.4,
-    "img": "../assets/img/facultades.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark junto a las facultades, en el corazón de la ciudad.",
     "url": "../parks/facultades.html"
   },
@@ -125,7 +125,7 @@
     "zona": "centro",
     "rodado": "todos",
     "puntuacion": 4.2,
-    "img": "../assets/img/puertomadero.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark en zona turística, a 3 cuadras de Casa Rosada.",
     "url": "../parks/puertomadero.html"
   },
@@ -135,7 +135,7 @@
     "zona": "centro",
     "rodado": "todos",
     "puntuacion": 4.0,
-    "img": "../assets/img/parquecentenario.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark en el centro del Parque Centenario.",
     "url": "../parks/parquecentenario.html"
   },
@@ -145,7 +145,7 @@
     "zona": "oeste",
     "rodado": "skate",
     "puntuacion": 2.8,
-    "img": "../assets/img/mataderos.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark amplio en Mataderos.",
     "url": "../parks/mataderos.html"
   },
@@ -155,7 +155,7 @@
     "zona": "sur",
     "rodado": "skate",
     "puntuacion": 2.8,
-    "img": "../assets/img/lugano.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark en el centro de Lugano.",
     "url": "../parks/lugano.html"
   },
@@ -165,7 +165,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.0,
-    "img": "../assets/img/caguapark.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Sobre avenida Cacique, a dos cuadras de la laguna.",
     "url": "../parks/caguapark.html"
   },
@@ -175,7 +175,7 @@
     "zona": "norte",
     "rodado": "todos",
     "puntuacion": 4.2,
-    "img": "../assets/img/nunez.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark mediano al aire libre en Núñez.",
     "url": "../parks/nunez.html"
   },
@@ -185,7 +185,7 @@
     "zona": "centro",
     "rodado": "skate",
     "puntuacion": 4.5,
-    "img": "../assets/img/warnes.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Skatepark cerca de la estación Paternal.",
     "url": "../parks/warnes.html"
   },
@@ -195,7 +195,7 @@
     "zona": "oeste",
     "rodado": "todos",
     "puntuacion": 3.9,
-    "img": "../assets/img/pombopark.png",
+    "img": "../assets/img/sinfoto.jpg",
     "descripcion": "En la plaza Las Toscaneras, en Villa Real.",
     "url": "../parks/pomboparkvillareal.html"
   }
