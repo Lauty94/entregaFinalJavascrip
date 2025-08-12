@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Descubrí los mejores skateparks en Buenos Aires. Recomendaciones, ubicación y detalles solo en PokePark.">
-  <title>pokepark ¡parks!</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Pokepark ¡Parks!</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="../styles/styles.css">
 
-  <!-- Tu script principal (cargado desde el head con defer, como pide la consigna) -->
+  <!-- Script con defer -->
   <script src="../scripts/parks-render.js" defer></script>
 </head>
 
@@ -17,40 +19,29 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center gap-2 animate__animated animate__backInDown animate__delay-0.3s" href="../index.html">
+        <a class="navbar-brand d-flex align-items-center gap-2 animate__animated animate__backInDown" href="../index.html">
           <img src="../assets/img/logo.png" alt="logo pokepark" class="logo-navbar">
           pokepark
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item animate__animated animate__jackInTheBox">
-              <a class="nav-link" href="../index.html">Inicio</a>
-           </li>
-            <li class="nav-item animate__animated animate__jackInTheBox">
-              <a class="nav-link" href="./novedades.html">Novedades</a>
-            </li>
-           <li class="nav-item animate__animated animate__jackInTheBox">
-              <a class="nav-link" href="./shop.html">Shop</a>
-            </li>
-            <li class="nav-item animate__animated animate__jackInTheBox">
-              <a class="nav-link active" aria-current="page" href="./parks.html">Parks</a>
-            </li>
-           <li class="nav-item animate__animated animate__jackInTheBox">
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./novedades.html">Novedades</a></li>
+            <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link active" href="./parks.html">Parks</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
           </ul>
-       </div>
+        </div>
       </div>
     </nav>
   </header>
 
-  <!-- FILTROS (mantengo tus selects con los mismos ids para que el JS los use) -->
   <main class="container my-4">
-    <div class="d-flex gap-3 mb-4">
+    <!-- FILTROS -->
+    <div class="d-flex gap-3 mb-4 flex-wrap">
       <select id="filter-zona" class="form-select w-auto">
         <option value="">Zona (todas)</option>
         <option value="centro">Centro</option>
@@ -65,6 +56,7 @@
         <option value="bmx">BMX</option>
         <option value="roller">Roller</option>
         <option value="scooter">Scooter</option>
+        <option value="todos">Todos</option>
       </select>
 
       <select id="filter-puntuacion" class="form-select w-auto">
@@ -75,23 +67,22 @@
       </select>
     </div>
 
-    <!-- CONTENEDOR donde JS inyectará las cards (usa clases Bootstrap row/col) -->
-    <div id="parks-container" class="row g-4">
-      <!-- cards inyectadas por ../scripts/parks-render.js -->
-    </div>
+    <!-- CONTENEDOR de cards -->
+    <div id="parks-container" class="row g-4"></div>
   </main>
 
   <footer class="text-center p-3 bg-dark text-light mt-5">
     <h4>seguinos en:</h4>
     <ul class="list-inline">
-      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">facebook</a></li>
-      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">instagram</a></li>
-      <li class="list-inline-item"><a href="#" class="text-light text-decoration-none">twitter</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">facebook</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">instagram</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">twitter</a></li>
     </ul>
   </footer>
 
-  <!-- Bootstrap JS (queda al final, no hace falta moverlo) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
