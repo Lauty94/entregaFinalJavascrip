@@ -5,7 +5,6 @@ const filtroPuntuacion = document.getElementById('filter-puntuacion');
 
 let parksData = [];
 
-// Cargar JSON (ruta relativa al HTML)
 fetch('../scripts/skateparks.json')
   .then(res => {
     if (!res.ok) throw new Error('No se pudo cargar skateparks.json');
@@ -22,7 +21,6 @@ fetch('../scripts/skateparks.json')
     </div>`;
   });
 
-// Renderizar lista completa
 function renderParks(list) {
   container.innerHTML = '';
   if (!list.length) {
@@ -51,7 +49,6 @@ function renderParks(list) {
   });
 }
 
-// Filtrar según selects
 function aplicarFiltros() {
   let filtrados = [...parksData];
 
@@ -70,7 +67,6 @@ function aplicarFiltros() {
   renderParks(filtrados);
 }
 
-// Eventos de filtros
 [filtroZona, filtroRodado, filtroPuntuacion].forEach(select => {
   select.addEventListener('change', aplicarFiltros);
 });
