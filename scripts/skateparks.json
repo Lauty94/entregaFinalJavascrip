@@ -25,7 +25,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.2,
-    "img": "../assets/img/montegrande.png",
+    "img": "../assets/img/montegrande.jpg",
     "descripcion": "Skatepark al aire libre junto a la estación de tren.",
     "url": "../parks/montegrande.html"
   },
@@ -55,7 +55,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.5,
-    "img": "../assets/img/sinfoto.jpg",
+    "img": "../assets/img/quilmes.jpg",
     "descripcion": "Skatepark al aire libre, super amplio.",
     "url": "../parks/quilmes.html"
   },
@@ -65,7 +65,7 @@
     "zona": "sur",
     "rodado": "skate",
     "puntuacion": 3.1,
-    "img": "../assets/img/sinfoto.jpg",
+    "img": "../assets/img/velodromolanus.jpg",
     "descripcion": "Dentro del velódromo de Lanús, ideal para principiantes.",
     "url": "../parks/velodromolanus.html"
   },
@@ -75,7 +75,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 3.9,
-    "img": "../assets/img/escapark.png",
+    "img": "../assets/img/escapark.jpg",
     "descripcion": "Skatepark junto a la plaza central de Escalada.",
     "url": "../parks/escalada.html"
   },
