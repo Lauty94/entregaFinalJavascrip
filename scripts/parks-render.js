@@ -5,7 +5,7 @@ const filtroPuntuacion = document.getElementById('filter-puntuacion');
 
 let parksData = [];
 
-fetch('../scripts/skateparks.json')
+fetch('/scripts/skateparks.json')
   .then(res => {
     if (!res.ok) throw new Error('No se pudo cargar skateparks.json');
     return res.json();
