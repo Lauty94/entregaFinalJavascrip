@@ -5,7 +5,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.8,
-    "img": "../assets/img/avellanew.png",
+    "img": "../assets/img/avellanew.jpg",
     "descripcion": "Skatepark al aire libre junto a las canchas de Independiente y Racing.",
     "url": "../parks/avellanewpark.html"
   },
@@ -25,7 +25,7 @@
     "zona": "sur",
     "rodado": "todos",
     "puntuacion": 4.2,
-    "img": "../assets/img/torneomontegrande.png",
+    "img": "../assets/img/montegrande.png",
     "descripcion": "Skatepark al aire libre junto a la estación de tren.",
     "url": "../parks/montegrande.html"
   },
@@ -218,5 +218,5 @@
     "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Amplio skatepark al aire libre, en el corazon de San Vicente.",
     "url": "../parks/sanvicente.html"
-  },
+  }
 ]
