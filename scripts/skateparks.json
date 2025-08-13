@@ -208,5 +208,15 @@
     "img": "../assets/img/sinfoto.jpg",
     "descripcion": "Mini skatepark al aire libre junto a la estacion de tren de burzaco.",
     "url": "../parks/burzaco.html"
-  }
+  },
+  {
+    "id": 22,
+    "nombre": "San vicente",
+    "zona": "sur",
+    "rodado": "todos",
+    "puntuacion": 3.5,
+    "img": "../assets/img/sinfoto.jpg",
+    "descripcion": "Amplio skatepark al aire libre, en el corazon de San Vicente.",
+    "url": "../parks/sanvicente.html"
+  },
 ]
